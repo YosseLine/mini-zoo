@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div#container{
+  margin-top: 20px;
+  width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#container h1{
+  font-family: 'Permanent Marker', cursive;
+  color: #0f89d2;
+  font-size: 50px;
+}
+figure{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+figure img{
+  border-style: outset;
+  border-radius: 15px;
+}
+
+select{
+  border: 1px outset black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.animal{
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+
+.negative-colors{
+  filter: invert(.8);
+  -ms-filter: invert(.8);
+  -moz-filter: invert(.8);
+  -o-filter: invert(.8);
+  -webkit-filter: invert(.8);
+}
+
+.sepia{
+  filter: sepia(1);
+  -ms-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -webkit-filter: sepia(1);
+}
+
+.white-black{
+  filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
